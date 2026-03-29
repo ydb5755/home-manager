@@ -30,8 +30,10 @@
 
   programs.git = {
     enable = true;
-    userName = "Yisroel Baum";
-    userEmail = "yisroel.d.baum@gmail.com";
+    settings.user = {
+      name = "Yisroel Baum";
+      email = "yisroel.d.baum@gmail.com";
+    };
   };
   programs.starship = {
     enable = true;
