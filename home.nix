@@ -15,7 +15,13 @@
 
   home.packages = with pkgs; [
     htop
-    fortune
+    btop
+    file
+    which
+    tree
+    dnsutils
+    jq
+    ripgrep
   ];
 
   home.file = {
